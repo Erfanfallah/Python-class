@@ -11,10 +11,10 @@ c = int(input("Please enter the grade of the third lesson:"))
 average = ((a + b + c) / 3)
 
 if average >= 17:
-    print("Dear", name, family, "your result is Great")
+    print("Dear student", name, family, "your result is Great")
 
 if 17 > average >= 12:
-    print("Dear", name, family, "your result is Normal")
+    print("Dear student", name, family, "your result is Normal")
 
 if average < 12:
-    print("Dear", name, family, "Your result is fail. Please try harder")
+    print("Dear student", name, family, "Your result is fail. Please try harder")
